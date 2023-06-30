@@ -58,7 +58,7 @@ export default function App() {
       { index ? 
           (<View className='mt-8 ml-8 space-y-6'>
             <Text>Dólar:</Text>
-            <TextInput className='border border-slate-500 rounded-sm w-28 h-10 pl-2' placeholder='$0.00' value={dolar} onChangeText={handleInputChange} keyboardType="numeric"/>
+            <TextInput className='border border-slate-500 rounded-sm w-28 h-10 pl-2' placeholder='$0.00' onChangeText={handleInputChange} keyboardType="numeric"/>
             <TouchableOpacity onPress={()=>handleClick()} className='bg-gray-500 rounded-md p-4 w-36 items-center space-x-2 flex-row'>
               <Fontisto name="arrow-swap" size={24} color="white" />
               <Text className='text-white'>Converter</Text>
