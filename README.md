@@ -1,4 +1,5 @@
-#Conversor
+Conversor
+
 Uma app mobile que converte dólar em kwanzas
 
 Comando para executar expo start ou npm run start
